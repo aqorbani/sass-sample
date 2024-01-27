@@ -1,0 +1,12 @@
+$primaryColor: #654fef;
+$secondaryColor: #ffffff;
+$fontSize: 5rem;
+
+h1 {
+  color: $primaryColor;
+}
+h2 {
+  background-color: $primaryColor;
+  color: $secondaryColor;
+  font-size: $fontSize;
+}
