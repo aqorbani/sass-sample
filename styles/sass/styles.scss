@@ -26,6 +26,7 @@ h2 {
 
 .textdiv h1 {
   @include textBox;
+  @include textHover;
 }
 
 .textdiv h3 {

@@ -5,3 +5,9 @@
   padding: 10px;
   margin: 10px;
 }
+
+@mixin textHover {
+  &:hover {
+    background-color: $thirdlyColor;
+  }
+}
