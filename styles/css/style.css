@@ -4,7 +4,7 @@ h1 {
 
 h2 {
   background-color: #654fef;
-  color: #ffffff;
+  color: hsl(0, 0%, 100%);
   font-size: 5rem;
 }
 
@@ -15,11 +15,35 @@ h2 {
   list-style: nonr;
 }
 .container ul li {
-  color: #ffffff;
+  color: hsl(0, 0%, 100%);
 }
 .container ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: hsl(0, 0%, 100%);
+}
+
+.textdiv h1 {
+  color: hsl(0, 0%, 100%);
+  background-color: #654fef;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.textdiv h3 {
+  color: hsl(0, 0%, 100%);
+  background-color: #654fef;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.textdiv p {
+  color: hsl(0, 0%, 100%);
+  background-color: #654fef;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

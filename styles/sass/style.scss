@@ -1,6 +1,14 @@
 $primaryColor: #654fef;
-$secondaryColor: #ffffff;
+$secondaryColor: hsl(0, 0%, 100%);
 $fontSize: 5rem;
+
+@mixin textBox {
+  color: $secondaryColor;
+  background-color: $primaryColor;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
 
 h1 {
   color: $primaryColor;
@@ -23,4 +31,16 @@ h2 {
       }
     }
   }
+}
+
+.textdiv h1 {
+  @include textBox;
+}
+
+.textdiv h3 {
+  @include textBox;
+}
+
+.textdiv p {
+  @include textBox;
 }
