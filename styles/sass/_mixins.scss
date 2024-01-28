@@ -6,9 +6,17 @@
   margin: (10px+100px);
 }
 
-@mixin textHover {
+@mixin textHover($flag) {
   &:hover {
-    background-color: $thirdlyColor;
+    @if ($flag == 1) {
+      background-color: $thirdlyColor;
+    } @else if($flag == 2) {
+      background-color: #4c00ff;
+      color: #64d6ff;
+    } @else {
+      background-color: #000;
+      color: #fff;
+    }
   }
 }
 

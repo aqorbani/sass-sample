@@ -30,7 +30,8 @@ h2 {
   margin: 110px;
 }
 .textdiv h1:hover {
-  background-color: hsl(327, 100%, 42%);
+  background-color: #4c00ff;
+  color: #64d6ff;
 }
 @media (max-width: 600px) {
   .textdiv h1 {

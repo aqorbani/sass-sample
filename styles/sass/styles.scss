@@ -26,7 +26,7 @@ h2 {
 
 .textdiv h1 {
   @include textBox;
-  @include textHover;
+  @include textHover(2);
   @include query(600px) {
     background-color: #23c502;
   }
