@@ -8,4 +8,18 @@ h2 {
   font-size: 5rem;
 }
 
+.container {
+  background-color: #654fef;
+}
+.container ul {
+  list-style: nonr;
+}
+.container ul li {
+  color: #ffffff;
+}
+.container ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=style.css.map */
