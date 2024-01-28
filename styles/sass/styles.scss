@@ -1,14 +1,5 @@
-$primaryColor: #654fef;
-$secondaryColor: hsl(0, 0%, 100%);
-$fontSize: 5rem;
-
-@mixin textBox {
-  color: $secondaryColor;
-  background-color: $primaryColor;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
-}
+@import "variables";
+@import "mixins";
 
 h1 {
   color: $primaryColor;
