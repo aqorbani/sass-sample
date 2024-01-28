@@ -49,3 +49,21 @@ h2 {
 .header {
   @extend %message-shared;
 }
+
+// @for $item from 1 through 5 {
+//   .title#{$item} {
+//     background-color: coral;
+//     color: #000;
+//     height: 20px * $item;
+//   }
+// }
+
+$item: 5;
+@while ($item>0) {
+  .title#{$item} {
+    background-color: coral;
+    color: #000;
+    height: 20px * $item;
+  }
+  $item: $item - 1;
+}

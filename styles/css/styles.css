@@ -61,4 +61,34 @@ h2 {
   margin: 110px;
 }
 
+.title5 {
+  background-color: coral;
+  color: #000;
+  height: 100px;
+}
+
+.title4 {
+  background-color: coral;
+  color: #000;
+  height: 80px;
+}
+
+.title3 {
+  background-color: coral;
+  color: #000;
+  height: 60px;
+}
+
+.title2 {
+  background-color: coral;
+  color: #000;
+  height: 40px;
+}
+
+.title1 {
+  background-color: coral;
+  color: #000;
+  height: 20px;
+}
+
 /*# sourceMappingURL=styles.css.map */
