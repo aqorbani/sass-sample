@@ -32,6 +32,11 @@ h2 {
 .textdiv h1:hover {
   background-color: hsl(327, 100%, 42%);
 }
+@media (max-width: 600px) {
+  .textdiv h1 {
+    background-color: #23c502;
+  }
+}
 
 .textdiv h3 {
   color: hsl(0, 0%, 100%);

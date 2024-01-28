@@ -11,3 +11,9 @@
     background-color: $thirdlyColor;
   }
 }
+
+@mixin query($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
