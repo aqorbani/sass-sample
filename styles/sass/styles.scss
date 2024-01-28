@@ -1,6 +1,12 @@
 @import "variables";
 @import "mixins";
 
+%message-shared {
+  padding: 10px;
+  color: #fff;
+  background-color: #6b0000;
+}
+
 h1 {
   color: $primaryColor;
 }
@@ -38,4 +44,8 @@ h2 {
 
 .textdiv p {
   @include textBox;
+}
+
+.header {
+  @extend %message-shared;
 }

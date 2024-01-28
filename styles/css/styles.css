@@ -1,3 +1,9 @@
+.header {
+  padding: 10px;
+  color: #fff;
+  background-color: #6b0000;
+}
+
 h1 {
   color: #654fef;
 }
